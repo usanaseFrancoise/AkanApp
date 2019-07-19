@@ -39,3 +39,41 @@ input[type="radio"]:checked+label{
     text-align: center;
     background-color:rgb(177, 207, 219);
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  
+  }
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  .fa-instagram{
+    color:white;
+  }
+  #footer{
+    text-align:center;
+  }
+  fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 60px;
+    height:40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  #fanny{
+  text-align:center;
+  color:white;
+  }
+  .footer{
+    background-color:gray;
+    
+  }
