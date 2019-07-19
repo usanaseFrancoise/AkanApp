@@ -42,3 +42,20 @@ else if(d==6 && gender=='Male'){
     document.getElementById("boo").innerHTML=" your Akan Name is Kwame";
 
 }
+// female Akan Names
+
+if(d==0 && gender=='Female'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Akosua";
+}
+else if(d==1  && gender=='Female'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Adwoa";
+}
+else if(d==2 && gender=='Female'){
+    document.getElementById("boo").innerHTML="your Akan Name is benaa";
+}
+else if(d==3 && gender=='Female'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Akua";
+}
+else if(d==4 && gender=='Female'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Yaa";
+}
