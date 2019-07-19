@@ -59,3 +59,10 @@ else if(d==3 && gender=='Female'){
 else if(d==4 && gender=='Female'){
     document.getElementById("boo").innerHTML=" your Akan Name is Yaa";
 }
+else if(d==5 && gender=='Female'){
+    document.getElementById("boo").innerHTML="your Akan Name is Afua";
+}
+else if(d==6 && gender=='Female'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Ama";
+}
+}
