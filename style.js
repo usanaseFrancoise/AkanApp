@@ -4,3 +4,11 @@ function akanName(){
      YY=D.getFullYear ();
      MM=D.getMonth ();
      MM=MM+1;
+     DD=D.getDate();
+     if(document.querySelector("#Male").checked){
+         var gender='Male'; 
+        }
+        else{
+ 
+            var gender='Female';     
+            }
