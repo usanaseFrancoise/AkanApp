@@ -22,3 +22,12 @@ input{
     padding:10px;
     font-size: inherit;
 }
+input [type="text"]{
+    display: block;
+    margin-bottom: 25px;
+    width:100%;
+    border:2px solid steelblue ;
+}
+input:focus{
+    background-color:wheat;
+}
