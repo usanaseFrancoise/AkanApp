@@ -17,6 +17,8 @@ function akanName(){
 var d=parseInt(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) %7);
 var d=(d.toFixed(0));
 console.log(d);
+// male conditions
+
 if(d==0 && gender=='Male'){
     document.getElementById("boo").innerHTML= " your Akan Name is Kwasi";
 }
@@ -28,4 +30,15 @@ else if(d==2 && gender=='Male'){
 }
 else if(d==3 && gender=='Male'){
     document.getElementById("boo").innerHTML=" your Akan Name is Kwaku";
+}
+else if(d==4 && gender=='Male'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Yaw";
+}
+else if(d==5 && gender=='Male'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Kofi";
+   
+}
+else if(d==6 && gender=='Male'){
+    document.getElementById("boo").innerHTML=" your Akan Name is Kwame";
+
 }
