@@ -31,3 +31,11 @@ input [type="text"]{
 input:focus{
     background-color:wheat;
 }
+input[type="radio"]:checked+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+#mine{
+    text-align: center;
+    background-color:rgb(177, 207, 219);
+}
