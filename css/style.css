@@ -12,3 +12,13 @@ h2{
     margin-left: 60px;
     font-size: 30px;
 }
+form{
+    margin:20px auto;
+    width:320px;
+    background-color:rgb(177, 207, 219);
+    text-align: center;
+}
+input{
+    padding:10px;
+    font-size: inherit;
+}
